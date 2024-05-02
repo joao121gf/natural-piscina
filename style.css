@@ -1,0 +1,19 @@
+.container-main{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.container-main{
+    background-image: url(elements-resized/woman-r.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
