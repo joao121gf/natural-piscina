@@ -26,7 +26,7 @@ header nav {
   justify-content: space-around;
   align-items: center;
   background: #00264a;
-  height: 10vh;
+  height: 80px;
 }
 
 header main {
@@ -53,7 +53,7 @@ header main {
 .mobile-menu div {
   width: 32px;
   height: 3px;
-  background: #FF671D;
+  background: #ff671d;
   margin: 7px;
   transition: 0.3s;
 }
@@ -68,7 +68,7 @@ header main {
     right: 0;
     width: 100vw;
     height: 92vh;
-    background: #00264A;
+    background: #00264a;
     flex-direction: column;
     align-items: flex-start;
     justify-content: start;
@@ -115,7 +115,7 @@ header main {
 }
 
 .logo {
-  width: 85px;
+  width: 93px;
 }
 
 .wpp-logo-top {
@@ -153,9 +153,51 @@ header main {
   padding: 0px 3px;
 }
 
+.father-top {
+  background-image: url(elements-resized/header-1.jpg);
+  height: 550px;
+}
+
 @media (max-width: 830px) {
   .wpp-logo-top,
   .number {
     display: none;
   }
+  .father-top {
+    background-position: top center;
+  }
+}
+.father-top {
+  width: 100%;
+  color: white;
+}
+.box-top {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 59px;
+  text-shadow: 3px 4px 4px #0a5c7d;
+}
+.box-top h1 {
+  font-size: clamp(2.7em, 1em + 5.4vw, 5em);
+  font-weight: 400;
+}
+.widt-h1 {
+  width: 85%;
+}
+
+.widt-h1 p {
+  font-weight: 200;
+  font-size: clamp(0.8em, 3.4vw, 4em);
+  padding-top: 13px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  background-color: #ff671d;
+  border-radius: 5px;
+  text-shadow: none;
+}
+.btn {
+  margin-top: 23px;
 }
