@@ -232,9 +232,8 @@ header main {
   right: -14px;
 }
 
-.circle-blue2{
+.circle-blue2 {
   width: 232px;
-
 }
 
 .img-a {
@@ -272,4 +271,106 @@ header main {
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
+}
+
+.text-about h1 {
+  color: #00264a;
+  margin-bottom: 20px;
+}
+
+.letters-choice h1 {
+  color: #00264a;
+  margin-bottom: 20px;
+}
+
+
+.letters-choice{
+  margin-bottom: 100px;
+}
+
+.father-choice {
+  width: 80%;
+  margin: 108px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.why-choice {
+  width: 100%;
+}
+
+.icon-bene {
+  display: flex;
+  align-items: flex-start;
+  font-weight: 300;
+}
+
+.icon-bene img {
+  margin-right: 10px;
+}
+
+.letters-choice p {
+  margin-bottom: 30px;
+}
+.letters-choice a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 13px;
+  background-color: #ff671d;
+  border-radius: 5px;
+  text-shadow: none;
+}
+
+.bene2 {
+  margin-bottom: 20px;
+}
+
+.img-selo {
+  position: relative;
+  margin-top: 73px;
+  left: -6px;
+  z-index: -1;
+}
+
+.img-selo img {
+  width: 200px;
+}
+
+.circle-b2 {
+  position: relative;
+  left: 61px;
+  top: -490px;
+  z-index: -1;;
+}
+
+.circle-b1 {
+  position: relative;
+  left: 82px;
+  top: -395px;
+  z-index: -1;
+}
+.box-selo {
+  background-color: #00264a;
+  padding: 15px;
+  color: white;
+  font-size: 10px;
+  width: 169px;
+  height: 69px;
+  position: relative;
+  left: 61px;
+  top: 275px;
+}
+.box-selo img {
+  width: 20px;
+}
+.img-choice {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.box-selo p {
+  font-size: 8px;
 }
