@@ -225,8 +225,17 @@ header main {
   left: -69px;
 }
 
+.circle-blue {
+  position: relative;
+  top: -233px;
+  z-index: -2;
+  right: -14px;
+}
 
+.circle-blue2{
+  width: 232px;
 
+}
 
 .img-a {
   background-image: url(elements-resized/q-3r.jpg);
