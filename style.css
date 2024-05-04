@@ -206,21 +206,23 @@ header main {
 .imgs-about {
   width: 118px;
   height: 132px;
-  background-color: #ff671d;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 11px 1px #c9c7c7;
   padding: 8px;
 }
 .a1 {
   position: relative;
-  left: -121px;
+  left: -91px;
 }
 .a2 {
   position: relative;
-  left: 162px;
+  left: 87px;
   top: -47px;
 }
 .a3 {
   position: relative;
-  top: -91px;
+  top: -95px;
+  left: -69px;
 }
 
 
