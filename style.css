@@ -283,8 +283,7 @@ header main {
   margin-bottom: 20px;
 }
 
-
-.letters-choice{
+.letters-choice {
   margin-bottom: 100px;
 }
 
@@ -295,6 +294,7 @@ header main {
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 0px;
 }
 
 .why-choice {
@@ -342,7 +342,7 @@ header main {
   position: relative;
   left: 61px;
   top: -490px;
-  z-index: -1;;
+  z-index: -1;
 }
 
 .circle-b1 {
@@ -373,4 +373,43 @@ header main {
 
 .box-selo p {
   font-size: 8px;
+}
+
+.img-led img {
+  width: 297px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 37px;
+}
+.pool-led {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content-led {
+  width: 80%;
+  margin: 0 auto;
+}
+.letters-led {
+  background-color: #00264a;
+  padding: 25px;
+  color: white;
+}
+.letters-led p {
+  font-weight: 200;
+  margin-bottom: 34px;
+}
+
+.letters-led h1 {
+  margin-bottom: 34px;
+
+}
+
+.content-led a {
+  padding: 8px;
+  background-color: #FF671D;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
 }
