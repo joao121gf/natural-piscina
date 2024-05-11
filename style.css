@@ -553,7 +553,7 @@ header main {
   }
   .content-about {
     width: 80%;
-    margin: 108px auto;
+    margin: 208px auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -562,26 +562,49 @@ header main {
   .text-about {
     width: 32%;
     min-width: 414px;
+    position: relative;
+    padding: 40px;
+    left: 0px;
   }
   .a1 {
     position: relative;
-    left: 78px;
-    bottom: -74px;
+    left: 106px;
+    bottom: -251px;
   }
   .a2 {
     position: relative;
-    left: -208px;
-    top: -93px;
+    left: -99px;
+    top: -92px;
   }
   .a3 {
     position: relative;
-    top: -42px;
-    left: -253px;
+    top: -78px;
+    left: -113px;
   }
   .circle-blue {
     position: relative;
-    top: -130px;
+    top: -277px;
     z-index: -2;
-    right: 146px;
+    right: -68px;
   }
+  .imgs-about {
+    width: 180px;
+    height: 180px;
+    min-width: 148px;
+    min-height: 148px;
+  }
+  .imgs-contt {
+  }
+}
+@media (min-width: 1126px) {
+  .text-about{
+    left: 58px;
+  }
+}
+
+@media (max-width: 1126px) {
+  .content-about {
+    flex-direction: column;
+  }
+
 }
