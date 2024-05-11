@@ -155,8 +155,9 @@ header main {
 }
 
 .father-top {
-  background-image: url(elements-resized/header-1.jpg);
+  background-image: url(elements-resized/resiz.jpg);
   height: 550px;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 830px) {
@@ -496,4 +497,35 @@ header main {
   font-weight: 200;
   padding-bottom: 10px;
   text-align: center;
+}
+
+/* .father-top {
+  height: 652px;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+@media (min-width: 518px) {
+  .father-top {
+    height: 702px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .widt-h1 {
+    max-width: 468px;
+  }
+  .box-top h1 {
+    line-height: 83px;
+    font-size: clamp(2.7em, 1em + 5.4vw, 4em);
+    text-shadow: 6px 5px 10px #002651;
+  }
+  .widt-h1 p {
+    font-size: clamp(0.8em, 3.4vw, 1em);
+  }
+  .btn {
+    margin-top: 54px;
+  }
+  .box-top{
+    width: 75%;
+  }
 }
