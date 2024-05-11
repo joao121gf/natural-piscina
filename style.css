@@ -525,7 +525,63 @@ header main {
   .btn {
     margin-top: 54px;
   }
-  .box-top{
+  .box-top {
     width: 75%;
+  }
+  .content-blue {
+    width: 67%;
+    justify-content: space-between;
+  }
+  .btn-ctt {
+    padding: 7px 9px;
+    background-color: #ff671d;
+    border-radius: 7px;
+  }
+  .number {
+    margin-right: 44px;
+  }
+  .circle img {
+    width: 23px;
+    margin-right: 10px;
+  }
+  .wpp-logo-top {
+    width: 20px;
+    margin-right: 6px;
+  }
+  .nav-list a {
+    letter-spacing: 2px;
+  }
+  .content-about {
+    width: 80%;
+    margin: 108px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: inherit;
+  }
+  .text-about {
+    width: 32%;
+    min-width: 414px;
+  }
+  .a1 {
+    position: relative;
+    left: 78px;
+    bottom: -74px;
+  }
+  .a2 {
+    position: relative;
+    left: -208px;
+    top: -93px;
+  }
+  .a3 {
+    position: relative;
+    top: -42px;
+    left: -253px;
+  }
+  .circle-blue {
+    position: relative;
+    top: -130px;
+    z-index: -2;
+    right: 146px;
   }
 }
