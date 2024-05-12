@@ -489,7 +489,48 @@ header main {
   background-repeat: no-repeat;
   background-size: cover;
 } */
+.box-pdc img {
+  width: 200px;
+}
 
+.father-products {
+  width: 100%;
+  background-image: url(elements-resized/woman-r.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left;
+  padding: 100px 0px;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+.content-pdc {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 2000px;
+}
+.box-pdc {
+  background-color: white;
+  color: #00264a;
+  text-align: center;
+  max-width: 372px;
+  margin: 0 auto;
+  margin-bottom: 39px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.box-pdc h2 {
+  margin: 17px 0px 24px 0px;
+}
+.box-pdc p {
+  padding: 7px 15px;
+  background-color: #ff671d;
+  width: 45%;
+  text-align: center;
+  margin: 0px auto;
+  border-radius: 10px;
+  max-width: 117px;
+  color: white;
+}
 @media (min-width: 518px) {
   .father-top {
     height: 702px;
@@ -617,7 +658,10 @@ header main {
     font-size: 10px;
   }
 }
-
+.footer {
+  max-width: 2000px;
+  margin: 0 auto;
+}
 @media (min-width: 1126px) {
   .text-about {
     left: 58px;
@@ -677,6 +721,25 @@ header main {
   }
   hr {
     display: none;
+  }
+  .content-pdc {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    min-width: 1110px;
+  }
+  .box-pdc h2 {
+    position: relative;
+    bottom: -2px;
+  }
+  .box-pdc {
+    min-width: 230px;
+    padding: 40px 20px;
+  }
+  .led {
+    width: 170px !important;
+  }
+  .content-footer {
+    width: 70%;
   }
 }
 
