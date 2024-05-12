@@ -142,7 +142,7 @@ header main {
 }
 .content-blue {
   display: flex;
-  font-size: clamp(0.7em, 3.4vw, 1em);
+  font-size: clamp(0.7em, 2.4vw, 1em);
   width: 80%;
   margin: 0 auto;
   justify-content: space-around;
@@ -170,10 +170,9 @@ header main {
 
 @media (max-width: 999px) {
   .nav-list {
-    top: 14vh;
+    top: 13vh;
   }
 }
-
 
 @media (max-width: 673px) {
   .content-blue {
@@ -194,7 +193,13 @@ h1 {
   font-size: clamp(0.3em, 0.5em + 1.4vw, 1em);
 }
 
-.father-letters {
+@media (max-width: 555px) {
+  .content-blue{
+    font-size: clamp(0.7em, 2.4vw, 1em) !important;
+  }
+}
+
+.content blue .father-letters {
   width: 100%;
   max-width: 2000px;
   margin: 0 auto;

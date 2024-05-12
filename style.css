@@ -70,7 +70,7 @@ header main {
 @media (max-width: 999px) {
   .nav-list {
     position: absolute;
-    top: 14vh;
+    top: 13vh;
     right: 0;
     width: 100vw;
     height: 92vh;
@@ -141,7 +141,7 @@ header main {
 }
 .content-blue {
   display: flex;
-  font-size: clamp(0.7em, 3.4vw, 1em);
+  font-size: clamp(0.7em, 2.4vw, 1em);
   width: 80%;
   margin: 0 auto;
   justify-content: space-around;
@@ -540,6 +540,11 @@ header main {
   border-radius: 10px;
   max-width: 117px;
   color: white;
+}
+.btn-ctt {
+  padding: 7px 9px;
+  background-color: #ff671d;
+  border-radius: 7px;
 }
 @media (min-width: 518px) {
   .father-top {
