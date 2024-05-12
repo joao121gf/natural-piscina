@@ -127,7 +127,9 @@ header main {
 .wpp-logo-top {
   width: 20px;
 }
-
+.logo-about img{
+  width: 190px;
+}
 .wpp-blue {
   display: flex;
   align-items: center;
