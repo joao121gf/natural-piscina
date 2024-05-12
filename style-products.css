@@ -259,6 +259,7 @@ h1 {
 .icons-cont {
   display: flex;
   margin-bottom: 20px;
+  align-items: center;
 }
 .icons-cont img {
   width: 24px;
