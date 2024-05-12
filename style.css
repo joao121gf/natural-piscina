@@ -372,7 +372,7 @@ header main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 200px;
+  margin-bottom: 267px;
 }
 .content-led {
   width: 80%;
@@ -660,6 +660,23 @@ header main {
     width: 364px;
     position: relative;
     /* left: 38px; */
+  }
+  .content-footer {
+    display: flex;
+    padding-bottom: 87px;
+  }
+  .logo-about,
+  .pages,
+  .contact-footer {
+    flex-grow: 1;
+    min-width: 0;
+    width: 33.3%;
+    margin: 0 auto;
+    display: grid;
+    justify-content: space-around;
+  }
+  hr {
+    display: none;
   }
 }
 
