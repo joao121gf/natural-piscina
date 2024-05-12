@@ -377,6 +377,7 @@ header main {
 .content-led {
   width: 80%;
   margin: 0 auto;
+  padding-top: 200px;
 }
 .letters-led {
   background-color: #00264a;
@@ -588,6 +589,19 @@ header main {
   .father-choice {
     margin-bottom: 200px;
   }
+  .letters-led {
+    max-width: 393px;
+    position: relative;
+    bottom: 6px;
+    padding: 50px;
+  }
+  .letters-led p {
+    width: 401px;
+  }
+  .letters-led h1 {
+    margin-bottom: 34px;
+    font-weight: 500;
+  }
 }
 @media (min-width: 825px) {
   .img-selo img {
@@ -635,6 +649,18 @@ header main {
     max-width: 2000px;
     margin: 0 auto;
   }
+  .content-led {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-led img {
+    width: 364px;
+    position: relative;
+    /* left: 38px; */
+  }
 }
 
 @media (max-width: 1126px) {
@@ -643,5 +669,8 @@ header main {
   }
   .letters-choice {
     width: 100%;
+  }
+  .letters-led {
+    margin: 0 auto;
   }
 }
