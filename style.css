@@ -285,9 +285,9 @@ header main {
   margin-bottom: 20px;
 }
 
-.letters-choice {
+/* .letters-choice {
   margin-bottom: 100px;
-}
+} */
 
 .father-choice {
   width: 80%;
@@ -340,37 +340,21 @@ header main {
   width: 200px;
 }
 
-.circle-b2 {
-  position: relative;
-  left: 61px;
-  top: -490px;
-  z-index: -1;
-}
-
-.circle-b1 {
-  position: relative;
-  left: 82px;
-  top: -395px;
-  z-index: -1;
-}
 .box-selo {
   background-color: #00264a;
   padding: 15px;
   color: white;
   font-size: 10px;
-  width: 169px;
+  width: 119px;
   height: 69px;
   position: relative;
-  left: 61px;
-  top: 275px;
+  left: -60px;
+  top: 374px;
 }
 .box-selo img {
   width: 20px;
 }
 .img-choice {
-  display: flex;
-
-  justify-content: space-between;
 }
 
 .box-selo p {
@@ -504,6 +488,7 @@ header main {
   background-repeat: no-repeat;
   background-size: cover;
 } */
+
 @media (min-width: 518px) {
   .father-top {
     height: 702px;
@@ -559,8 +544,9 @@ header main {
     align-items: center;
     flex-direction: inherit;
   }
+
   .text-about {
-    width: 32%;
+    width: 100%;
     min-width: 414px;
     position: relative;
     padding: 40px;
@@ -593,12 +579,61 @@ header main {
     min-width: 148px;
     min-height: 148px;
   }
-  .imgs-contt {
+  .box-selo {
+    width: 119px;
+    position: relative;
+    left: -90px;
+    top: 374px;
+  }
+  .father-choice {
+    margin-bottom: 200px;
   }
 }
+@media (min-width: 825px) {
+  .img-selo img {
+    width: 300px;
+  }
+  .box-selo {
+    width: 128px;
+    position: relative;
+    left: -90px;
+    top: 525px;
+  }
+  .box-selo p {
+    font-size: 10px;
+  }
+}
+
 @media (min-width: 1126px) {
-  .text-about{
+  .text-about {
     left: 58px;
+  }
+  .text-about {
+    width: 32%;
+    min-width: 414px;
+    position: relative;
+    padding: 40px;
+    left: 0px;
+    margin-left: 50px;
+  }
+  .father-choice {
+    flex-direction: initial;
+    justify-content: space-evenly;
+    max-width: 2000px;
+  }
+  .letters-choice {
+    width: 45%;
+  }
+  .content-about {
+    max-width: 2000px;
+  }
+  .father-top {
+    max-width: 2000px;
+    margin: 0 auto;
+  }
+  header {
+    max-width: 2000px;
+    margin: 0 auto;
   }
 }
 
@@ -606,5 +641,7 @@ header main {
   .content-about {
     flex-direction: column;
   }
-
+  .letters-choice {
+    width: 100%;
+  }
 }
