@@ -495,11 +495,19 @@ iframe {
     width: 306px !important;
     padding-bottom: 20px;
   }
+  .grl{
+    height: 306px !important;
+    width: 306px !important;
+  }
 }
 @media (min-width: 996px) {
   .scd {
     height: initial !important;
     width: initial !important;
+  }
+  .grl {
+    width: 500px !important;
+    height: 500px !important;
   }
 }
 
