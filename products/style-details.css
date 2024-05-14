@@ -262,9 +262,30 @@ hr {
 }
 
 @media (min-width: 1126px) {
+  .box-cat {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+  }
+  .pisc{
+    width: initial !important;
+  }
+  .box-cat img {
+    width: 352px;
+    margin: initial !important;
+    padding-bottom: 100px;
+  }
   .content-footer {
     display: flex;
     padding-bottom: 87px;
+  }
+  .content-video {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+  }
+  .descp-piscina {
+    padding-top: 1px !important;
   }
   .logo-about,
   .pages,
@@ -361,7 +382,6 @@ hr {
   display: flex;
 }
 
-
 a {
   text-decoration: none;
   color: #00264a;
@@ -369,7 +389,6 @@ a {
 .pdt {
   margin-left: 7px;
 }
-
 
 iframe {
   width: 50%;
@@ -401,4 +420,40 @@ iframe {
   .video {
     padding-bottom: 100px;
   }
+}
+.piscina {
+  width: 21vw;
+  min-width: 300px;
+}
+.descp-piscina {
+  font-weight: 400;
+  padding-bottom: 50px;
+  max-width: 600px;
+  line-height: 36px;
+  padding-top: 100px;
+  text-align: left;
+  font-size: 19px;
+}
+.video {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 2000px;
+}
+.content-video {
+  width: 80%;
+  margin: 0 auto;
+}
+.btn-e {
+  padding: 8px 10px;
+  background-color: #ff671d;
+  width: 141px;
+  border-radius: 7px;
+  color: white;
+}
+
+.box-cat img {
+  width: 352px;
+  margin: 0 auto;
+  display: flex;
+  padding-bottom: 100px;
 }
