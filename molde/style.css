@@ -174,16 +174,12 @@ header main {
   }
 }
 
-
 h1 {
   font-size: clamp(1em, 1em + 3.4vw, 3em);
   color: #00264a;
   margin-top: 100px;
   margin-bottom: 22px;
 }
-
-
-
 
 .footer {
   width: 100%;
@@ -265,8 +261,6 @@ hr {
   padding-bottom: 10px;
 }
 
-
-
 @media (min-width: 1126px) {
   .content-footer {
     display: flex;
@@ -288,7 +282,123 @@ hr {
   hr {
     display: none;
   }
-  
+}
+
+@media (max-width: 530px) {
+  .content-blue {
+    display: flex;
+    font-size: clamp(0.5em, 2.4vw, 1em);
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px 0px;
+    color: white;
+    text-shadow: 0px 2px 6px #07365d;
+  }
+}
+.top-home {
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+.content-top-home {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.content-top-home div {
+  display: flex;
+  font-size: 14px;
+  font-weight: 300;
+}
+.flang {
+  margin-left: 6px;
+  font-weight: 500;
+}
+
+.content-top-home div p {
+  margin-top: 20px;
+}
+.letter-conf {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 2000px;
+}
+.box-conf {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.father-item {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 2000px;
+}
+.content-item {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 33px;
+}
+
+.item {
+  padding-bottom: 91px;
+}
+.description {
+  font-weight: 400;
+  padding-bottom: 100px;
+  max-width: 600px;
+  line-height: 36px;
+}
+.content-video {
+  text-align: center;
+  padding-bottom: 158px;
+}
+.item img {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
 }
 
 
+a {
+  text-decoration: none;
+  color: #00264a;
+}
+.pdt {
+  margin-left: 7px;
+}
+
+
+iframe {
+  width: 50%;
+  height: 300px;
+  min-width: 342px;
+  max-width: 715px;
+}
+@media (min-width: 1026px) {
+  .content-item {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  }
+  .description {
+    font-size: 19px;
+  }
+  iframe {
+    width: 700px;
+    height: 400px;
+    min-width: initial;
+    max-width: initial;
+  }
+  h1 {
+    margin-bottom: 160px;
+  }
+  .father-item {
+    padding-bottom: 78px;
+  }
+  .video {
+    padding-bottom: 100px;
+  }
+}
