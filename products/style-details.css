@@ -362,7 +362,9 @@ hr {
   margin: 0 auto;
   padding-top: 33px;
 }
-
+.escada {
+  width: 300px;
+}
 .item {
   padding-bottom: 91px;
 }
@@ -488,7 +490,19 @@ iframe {
     width: 306px;
     padding-bottom: 20px;
   }
+  .scd {
+    height: 300px !important;
+    width: 306px !important;
+    padding-bottom: 20px;
+  }
 }
+@media (min-width: 996px) {
+  .scd {
+    height: initial !important;
+    width: initial !important;
+  }
+}
+
 .rev-video {
   width: 70vw;
   margin: 0 auto;
