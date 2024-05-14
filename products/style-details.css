@@ -495,11 +495,10 @@ iframe {
     width: 306px !important;
     padding-bottom: 20px;
   }
-  .grl{
+  .grl {
     height: 306px !important;
     width: 306px !important;
   }
-
 }
 @media (min-width: 996px) {
   .scd {
@@ -510,12 +509,16 @@ iframe {
     width: 500px !important;
     height: 500px !important;
   }
-  .csc{
+  .csc {
     width: 430px !important;
     height: 400px !important;
   }
 }
-
+.float-wpp {
+  position: fixed;
+  bottom: 22px;
+  right: 29px;
+}
 .rev-video {
   width: 70vw;
   margin: 0 auto;

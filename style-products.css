@@ -365,6 +365,11 @@ hr {
     gap: 46px;
   }
 }
+.float-wpp {
+  position: fixed;
+  bottom: 22px;
+  right: 29px;
+}
 @media (min-width: 815px) {
   .quadrado-img {
       width: 200px;

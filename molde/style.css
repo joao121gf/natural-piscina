@@ -306,7 +306,11 @@ hr {
   width: 80%;
   margin: 0 auto;
 }
-
+.float-app {
+  position: fixed;
+  bottom: 22px;
+  right: 29px;
+}
 .content-top-home div {
   display: flex;
   font-size: 14px;
