@@ -380,10 +380,29 @@ hr {
   margin: 0 auto;
   text-align: center;
   display: flex;
+}
+.piscc {
   width: 30vw;
   min-width: 299px;
 }
-
+.content-led img {
+  height: 281px;
+  width: 425px;
+}
+.father-led {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 2000px;
+}
+.content-led {
+  width: 80%;
+  /* text-align: center; */
+  margin: 0 auto;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  padding-bottom: 200px;
+}
 a {
   text-decoration: none;
   color: #00264a;
@@ -458,4 +477,15 @@ iframe {
   margin: 0 auto;
   display: flex;
   padding-bottom: 100px;
+}
+@media (max-width: 996px) {
+  .content-led {
+    display: block;
+    text-align: center;
+  }
+  .content-led img {
+    height: 249px;
+    width: 306px;
+    padding-bottom: 20px;
+  }
 }
