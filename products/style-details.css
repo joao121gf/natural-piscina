@@ -267,7 +267,7 @@ hr {
     justify-content: center;
     gap: 300px;
   }
-  .pisc{
+  .pisc {
     width: initial !important;
   }
   .box-cat img {
@@ -380,6 +380,8 @@ hr {
   margin: 0 auto;
   text-align: center;
   display: flex;
+  width: 30vw;
+  min-width: 299px;
 }
 
 a {
