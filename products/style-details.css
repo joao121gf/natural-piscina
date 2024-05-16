@@ -373,6 +373,9 @@ hr {
   padding-bottom: 100px;
   max-width: 1207px;
   line-height: 30px;
+
+}
+.dscp2{
   text-align: center;
 }
 .content-video {
@@ -535,6 +538,9 @@ iframe {
     justify-content: center;
     margin: initial;
   }
+  .cerc{
+    width: 300px !important;
+  }
 }
 .float-wpp {
   position: fixed;
@@ -567,4 +573,7 @@ iframe {
 .content-sauna {
   margin: 0 auto;
   padding-bottom: 150px;
+}
+.img-cerc{
+  width: 300px;
 }
