@@ -178,7 +178,7 @@ h1 {
   font-size: clamp(1em, 1em + 3.4vw, 3em);
   color: #ff671d;
   margin-top: 50px;
-  margin-bottom: 0px;
+  margin-bottom: 16px;
 }
 
 .footer {
