@@ -601,3 +601,7 @@ iframe {
   padding-bottom: 100px;
 }
 
+.video-led {
+  width: 82vw;
+  max-width: 500px;
+}
