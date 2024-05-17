@@ -524,7 +524,7 @@ iframe {
   .content-sauna {
     width: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     gap: 100px;
   }
   .letters-sauna p {
