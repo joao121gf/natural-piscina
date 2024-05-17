@@ -798,7 +798,6 @@ header main {
   align-items: center;
   margin-bottom: 0px;
   padding-top: 100px;
-
 }
 .letters-mail {
   padding-bottom: 85px;
@@ -835,4 +834,7 @@ header main {
   .content-mail {
     flex-direction: column;
   }
+}
+.revs {
+  width: 161px !important; 
 }

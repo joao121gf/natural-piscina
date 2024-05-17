@@ -608,3 +608,7 @@ iframe {
   width: 82vw;
   max-width: 500px;
 }
+.flangepc{
+  height: 300px !important;
+  width: 300px !important;
+}
