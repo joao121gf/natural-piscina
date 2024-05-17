@@ -136,6 +136,9 @@ header main {
   align-items: center;
   justify-content: center;
 }
+.cat2{
+  padding-top: 30px;
+}
 
 .top-blue {
   background-color: #0091ca;

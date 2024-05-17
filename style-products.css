@@ -251,6 +251,8 @@ h1 {
 
 .quadrado-img img {
   width: 200px;
+  display: flex;
+  margin: 0 auto;
 }
 .content-pdc {
   text-align: center;
