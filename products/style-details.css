@@ -136,7 +136,7 @@ header main {
   align-items: center;
   justify-content: center;
 }
-.cat2{
+.cat2 {
   padding-top: 30px;
 }
 
@@ -608,7 +608,10 @@ iframe {
   width: 82vw;
   max-width: 500px;
 }
-.flangepc{
+.flangepc {
   height: 300px !important;
   width: 300px !important;
+}
+.led-img {
+  width: 300px;
 }
