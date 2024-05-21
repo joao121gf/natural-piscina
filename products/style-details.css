@@ -264,7 +264,20 @@ hr {
   padding-bottom: 10px;
 }
 
+@media (max-width: 1126px) {
+  .img-pisc {
+    display: block;
+  }
+}
+
 @media (min-width: 1126px) {
+  .img-pisc {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 0 auto;
+    gap: 40px;
+  }
   .box-cat {
     display: flex;
     justify-content: center;
@@ -626,6 +639,21 @@ iframe {
   gap: 50px;
   padding-top: 50px;
 }
-.last{
+.last {
   padding-bottom: 150px;
+}
+
+.let-pisc {
+  width: 80vw;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.let-pisc h3 {
+  color: #00264a;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+.img-pisc img {
+  padding-bottom: 30px;
 }
