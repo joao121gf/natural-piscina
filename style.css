@@ -680,7 +680,22 @@ header main {
   max-width: 2000px;
   margin: 0 auto;
 }
+
 @media (min-width: 1126px) {
+  .father-serv {
+    padding-bottom: 150px;
+  }
+  .content-serv {
+    display: grid;
+    gap: 36px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+  }
+  .img-serv {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+  }
   .content-mail {
     flex-direction: initial;
     display: block;
@@ -771,6 +786,9 @@ header main {
 }
 
 @media (max-width: 1126px) {
+  .content-serv {
+    flex-direction: column;
+  }
   .content-about {
     flex-direction: column;
   }
@@ -836,5 +854,71 @@ header main {
   }
 }
 .revs {
-  width: 161px !important; 
+  width: 161px !important;
+}
+.father-serv {
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+.content-serv {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.img-serv img {
+  width: 80vw;
+  max-width: 500px;
+  padding-bottom: 20px;
+}
+
+.letters-serv h1 {
+  color: #00264a;
+  font-size: 24px;
+}
+
+.letters-serv h3 {
+  font-weight: 300;
+  font-size: 15px;
+  padding-bottom: 40px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.flex img {
+  margin-right: 10px;
+}
+
+.flex {
+  margin-bottom: 30px;
+  width: 76%;
+  min-width: 274px;
+}
+
+.flex p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.this {
+  padding-bottom: 35px;
+  width: 76%;
+  min-width: 274px;
+}
+.flex span {
+  font-weight: 600;
+  color: #00264a;
+}
+
+.link-rev {
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: #ff671d;
+  border-radius: 10px;
+  color: white;
+}
+.father-serv {
+  padding-bottom: 100px;
 }
