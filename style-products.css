@@ -204,7 +204,7 @@ a {
   margin-left: 7px;
   font-weight: 400;
 }
-.btn-v{
+.btn-v {
   padding: 7px 14px;
   background-color: #ff671d;
   width: 111px;
@@ -374,11 +374,11 @@ hr {
 }
 @media (min-width: 815px) {
   .quadrado-img {
-      width: 200px;
-      height: 200px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 @media (min-width: 1126px) {
@@ -414,4 +414,8 @@ hr {
   .content-pdc {
     grid-template-columns: 1fr 1fr 1fr;
   }
+}
+.box-pisc {
+  align-items: center;
+  justify-content: center;
 }
