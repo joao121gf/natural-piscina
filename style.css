@@ -932,7 +932,7 @@ header main {
 }
 .box-form {
   position: fixed;
-
+  transition: opacity 0.3s ease;
   background-color: #00264a;
   color: white;
   text-align: center;
@@ -961,6 +961,9 @@ header main {
   width: 74%;
   max-width: 511px;
 }
+.box-form {
+  display: none;
+}
 input {
   width: 86%;
   margin: 0 auto;
@@ -972,13 +975,14 @@ input {
 }
 
 textarea {
-  width: 92%;
+  width: 86%;
   margin: 0 auto;
   height: 100px;
   margin-bottom: 37px;
   margin-top: 3px;
   border: none;
   outline: none;
+  padding: 10px;
 }
 
 button {
@@ -1035,7 +1039,16 @@ button {
   text-decoration: none;
   color: white;
 }
-.content-main h1{
+.content-main h1 {
   color: #ff671d;
   padding-bottom: 20px;
+}
+
+.btn p {
+  background-color: #ff671d;
+  width: 139px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
 }

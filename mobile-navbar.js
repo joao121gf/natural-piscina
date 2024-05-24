@@ -1,3 +1,20 @@
+const btnShow = document.querySelector(".fale");
+const modal = document.querySelector('.box-form')
+const close = document.querySelector('.close')
+
+
+close.addEventListener('click', fecha)
+btnShow.addEventListener("click", abre);
+
+function abre() {
+  modal.style.display = 'block'
+}
+function fecha(){
+  modal.style.display = 'none'
+
+}
+
+
 class MobileNavbar {
   constructor(mobileMenu, navList, navLinks) {
     this.mobileMenu = document.querySelector(mobileMenu);
