@@ -663,6 +663,9 @@ header main {
     font-weight: 500;
   }
 }
+.modal-content {
+  left: 50%;
+}
 @media (min-width: 825px) {
   .img-selo img {
     width: 300px;
@@ -787,6 +790,9 @@ header main {
 }
 
 @media (max-width: 1126px) {
+  .modal-content {
+    left: 46%;
+  }
   .content-serv {
     flex-direction: column;
   }
@@ -923,4 +929,113 @@ header main {
 .father-serv {
   padding-bottom: 200px;
   padding-top: 100px;
+}
+.box-form {
+  position: fixed;
+
+  background-color: #00264a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form {
+  display: grid;
+}
+.modal-content {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #00264a;
+  padding: 20px;
+  border-radius: 5px;
+  width: 74%;
+  max-width: 511px;
+}
+input {
+  width: 86%;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 3px;
+  margin-bottom: 22px;
+  border: none;
+  outline: none;
+}
+
+textarea {
+  width: 92%;
+  margin: 0 auto;
+  height: 100px;
+  margin-bottom: 37px;
+  margin-top: 3px;
+  border: none;
+  outline: none;
+}
+
+button {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #ff671d;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  color: white;
+}
+
+.box-form p {
+  padding-bottom: 27px;
+}
+
+.modal-content {
+  padding-bottom: 60px;
+}
+.modal-content h2 {
+  color: #ff671d;
+}
+
+.close {
+  margin-top: 20px;
+  background-color: white;
+  color: black;
+}
+.father-main {
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #00264a;
+  color: white;
+}
+.content-main img {
+  width: 200px;
+  margin-top: 50px;
+  padding-bottom: 61px;
+}
+.content-main p a {
+  background-color: #ff671d;
+  padding: 10px 27px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+}
+.content-main h1{
+  color: #ff671d;
+  padding-bottom: 20px;
 }
